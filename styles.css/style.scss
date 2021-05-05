@@ -1,0 +1,173 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: yellow;
+}
+.maincontainer{
+    height: auto; 
+    // grid
+    background: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100%,100%));          
+}
+.navbarsection{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     
+}
+.navbarsection ul{
+    padding: 0;
+    list-style: none;
+}
+.navbarsection a{
+    text-decoration: none;
+    color: black;   
+}
+.navbarsection li{
+    display: inline;
+}
+.imagesection{
+    display: grid;
+    height: 250px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+.image1{ 
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background: red;
+    align-items: center;
+}
+.image2{ 
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background: blue;
+    align-items: center;
+}
+.image3{ 
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background: pink;
+    align-items: center;
+}
+.image4{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background: gray;
+    align-items: center;
+}
+.imagesection div{
+    margin: 15px 15px;
+}
+.subcontainer{
+    height: 800px;
+    // grid
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(60px,50%));
+    grid-template-rows: repeat(auto-fit,minmax(60px,90%));
+}
+.section1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.sectionaboutme{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: orchid;
+    height: 250px;
+}
+.sectionskills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: mediumseagreen;
+    align-items: center;
+    height: 250px;
+}
+.sectionproject{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: mintcream;
+    height: 250px;
+}
+.section1 div{
+    margin: 10px 10px;
+}
+.article1{
+    height: 900px;
+    // grid
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50px,100%));
+    grid-template-rows: repeat(auto-fit,minmax(50px,20.5%));
+}
+.article1 div{
+    margin: 15px 15px;
+}
+.elemschool{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: mintcream;
+    height: 170px;
+}
+.highschool{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    background: mediumvioletred;
+    height: 170px;
+}
+.college{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    background: greenyellow;
+    height: 170px;
+}
+.aside2{
+    height: 200px;
+    // grid
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50px,50%));
+}
+.resume{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    background: moccasin;
+    height: 190px;
+}
+.workexperience{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    background: lightcoral;
+    height: 190px;
+}
+.containerfooter{
+    height:100px ;
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(100%,100%));
+}
+.footersection{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    background: mediumvioletred;
+    height: 100px;
+}
